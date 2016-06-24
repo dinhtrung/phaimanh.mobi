@@ -1,17 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.mobi.phaimanh" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Phaimanh</name>
+    <name>Phái Mạnh</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Thế Giới Đàn Ông là dịch vụ giá trị gia tăng nhằm cung cấp cho mạng di động Vinaphone. Dịch vụ mang đến cho quý khách hàng sử dụng những thông tin cập nhật hiện đại và mới mẻ về các lĩnh vực như giải trí, công nghệ, du lịch, kinh doanh, sức khỏe, ô tô, thời trang, non-stop, your girl mà hầu hết phái mạnh quan tâm.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="trungnd@hohuymedia.vn" href="http://hohuymedia.vn">
+        Hồ Huy Media
     </author>
     <content src="http://phaimanh.mobi" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
+    <allow-navigation href="http://*.phaimanh.mobi/*" />
+    <allow-navigation href="http://*.vinaphone.com.vn/*" />
+    <allow-navigation href="https://*.phaimanh.mobi/*" />
+    <allow-navigation href="https://*.vinaphone.com.vn/*" />
+    <allow-intent href="http://*.phaimanh.mobi/*" />
+    <allow-intent href="http://*.vinaphone.com.vn/*" />
+    <allow-intent href="https://*.phaimanh.mobi/*" />
+    <allow-intent href="https://*.vinaphone.com.vn/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
