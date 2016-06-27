@@ -8,6 +8,7 @@
         Hồ Huy Media
     </author>
     <content src="http://phaimanh.mobi" />
+    <icon src="www/icon.png" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-navigation href="http://*.phaimanh.mobi/*" />
